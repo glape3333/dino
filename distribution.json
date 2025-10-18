@@ -1,0 +1,416 @@
+{
+  "version": "1.0.0",
+  "rss": "<LINK TO RSS FEED>",
+  "discord": {
+    "clientId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+    "smallImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+    "smallImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+  },
+  "servers": [
+    {
+      "id": "dinolauncher-1.21.1",
+      "name": "dino server (Minecraft 1.21.1)",
+      "description": "dino server Running Minecraft 1.21.1",
+      "icon": null,
+      "version": "1.0.0",
+      "address": "121.166.80.169",
+      "minecraftVersion": "1.21.1",
+      "discord": {
+        "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+        "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+        "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+      },
+      "mainServer": true,
+      "autoconnect": true,
+      "modules": [
+        {
+          "id": "net.fabricmc:fabric-loader:0.17.3",
+          "name": "Fabric (fabric-loader)",
+          "type": "Fabric",
+          "artifact": {
+            "size": 1917330,
+            "MD5": "54e368d0ccdcb9109a63f048e26526b0",
+            "url": "https://glape3333.github.io/dino/repo/lib/net/fabricmc/fabric-loader/0.17.3/fabric-loader-0.17.3.jar"
+          },
+          "subModules": [
+            {
+              "id": "1.21.1-fabric-0.17.3",
+              "name": "Fabric (version.json)",
+              "type": "VersionManifest",
+              "artifact": {
+                "size": 2847,
+                "MD5": "e2624e9837ea1b6d32eeceaf49b4f967",
+                "url": "https://glape3333.github.io/dino/repo/versions/1.21.1-fabric-0.17.3/1.21.1-fabric-0.17.3.json"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm:9.9",
+              "name": "Fabric (asm)",
+              "type": "Library",
+              "artifact": {
+                "size": 126122,
+                "MD5": "6d1dd0482c03a6dc1807d9d004456021",
+                "url": "https://glape3333.github.io/dino/repo/lib/org/ow2/asm/asm/9.9/asm-9.9.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-analysis:9.9",
+              "name": "Fabric (asm-analysis)",
+              "type": "Library",
+              "artifact": {
+                "size": 35149,
+                "MD5": "f07383cfbd50f097558341a03b8871e1",
+                "url": "https://glape3333.github.io/dino/repo/lib/org/ow2/asm/asm-analysis/9.9/asm-analysis-9.9.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-commons:9.9",
+              "name": "Fabric (asm-commons)",
+              "type": "Library",
+              "artifact": {
+                "size": 74348,
+                "MD5": "8103b3de8f48fb4c7f97efdaa46ce809",
+                "url": "https://glape3333.github.io/dino/repo/lib/org/ow2/asm/asm-commons/9.9/asm-commons-9.9.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-tree:9.9",
+              "name": "Fabric (asm-tree)",
+              "type": "Library",
+              "artifact": {
+                "size": 51947,
+                "MD5": "912eeaba1a63d574ffc66c651c7c6725",
+                "url": "https://glape3333.github.io/dino/repo/lib/org/ow2/asm/asm-tree/9.9/asm-tree-9.9.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-util:9.9",
+              "name": "Fabric (asm-util)",
+              "type": "Library",
+              "artifact": {
+                "size": 94565,
+                "MD5": "ef5e90e736cd09bc407c1d46a3faba0f",
+                "url": "https://glape3333.github.io/dino/repo/lib/org/ow2/asm/asm-util/9.9/asm-util-9.9.jar"
+              }
+            },
+            {
+              "id": "net.fabricmc:sponge-mixin:0.16.5+mixin.0.8.7",
+              "name": "Fabric (sponge-mixin)",
+              "type": "Library",
+              "artifact": {
+                "size": 1504519,
+                "MD5": "798c8c25fb84d91b384bdee442c249d7",
+                "url": "https://glape3333.github.io/dino/repo/lib/net/fabricmc/sponge-mixin/0.16.5+mixin.0.8.7/sponge-mixin-0.16.5+mixin.0.8.7.jar"
+              }
+            },
+            {
+              "id": "net.fabricmc:intermediary:1.21.1",
+              "name": "Fabric (intermediary)",
+              "type": "Library",
+              "artifact": {
+                "size": 657725,
+                "MD5": "850be48a3406b9efdf8e64b1c2db97f8",
+                "url": "https://glape3333.github.io/dino/repo/lib/net/fabricmc/intermediary/1.21.1/intermediary-1.21.1.jar"
+              }
+            }
+          ]
+        },
+        {
+          "id": "dev.architectury.utils:architectury:13.0.8@jar",
+          "name": "Architectury",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 600915,
+            "url": "https://glape3333.github.io/dino/servers/dinolauncher-1.21.1/fabricmods/required/architectury-13.0.8-fabric.jar",
+            "MD5": "702e92d09a4855c6c8aa9e738a48efa4"
+          }
+        },
+        {
+          "id": "me.shedaniel.autoconfig.example:cloth-config:15.0.140@jar",
+          "name": "Cloth Config v15",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1157166,
+            "url": "https://glape3333.github.io/dino/servers/dinolauncher-1.21.1/fabricmods/required/cloth-config-15.0.140-fabric.jar",
+            "MD5": "a2c091b027ad6ba8e54b07020fd45884"
+          }
+        },
+        {
+          "id": "jp.axer.cocoainput.loader:cocoainput:4.4.1-EXPERIMENTAL@jar",
+          "name": "CocoaInput",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 138660,
+            "url": "https://glape3333.github.io/dino/servers/dinolauncher-1.21.1/fabricmods/required/CocoaInput-1.20.5-fabric-4.4.1-EXPERIMENTAL.jar",
+            "MD5": "d522001f43d4b5d20dee88cac01201a0"
+          }
+        },
+        {
+          "id": "traben.entity_model_features:entity_model_features:2.4.1@jar",
+          "name": "Entity Model Features",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 444709,
+            "url": "https://glape3333.github.io/dino/servers/dinolauncher-1.21.1/fabricmods/required/entity_model_features_fabric_1.21.1-2.4.1.jar",
+            "MD5": "0dc5775f29f779b17cbf03d42c1a670e"
+          }
+        },
+        {
+          "id": "traben.entity_texture_features:entity_texture_features:6.2.9@jar",
+          "name": "Entity Texture Features",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 649930,
+            "url": "https://glape3333.github.io/dino/servers/dinolauncher-1.21.1/fabricmods/required/entity_texture_features_fabric_1.21.1-6.2.9.jar",
+            "MD5": "4baf4440a9210304f2cd133e5673da33"
+          }
+        },
+        {
+          "id": "generated.fabricmod:fabric-api:0.116.4+1.21.1@jar",
+          "name": "Fabric API",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 2423497,
+            "url": "https://glape3333.github.io/dino/servers/dinolauncher-1.21.1/fabricmods/required/fabric-api-0.116.4+1.21.1.jar",
+            "MD5": "aa1660d1af25eb18790182753f977615"
+          }
+        },
+        {
+          "id": "generated.fabricmod:iris:1.8.7+mc1.21.1@jar",
+          "name": "Iris",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 2690171,
+            "url": "https://glape3333.github.io/dino/servers/dinolauncher-1.21.1/fabricmods/required/iris-fabric-1.8.7+mc1.21.1.jar",
+            "MD5": "0ab7dc4fa9b81d9c320762f87e9e4ed4"
+          }
+        },
+        {
+          "id": "journeymap:journeymap:1.21.1-6.0.0-beta.52@jar",
+          "name": "Journeymap",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 3564296,
+            "url": "https://glape3333.github.io/dino/servers/dinolauncher-1.21.1/fabricmods/required/journeymap-fabric-1.21.1-6.0.0-beta.52.jar",
+            "MD5": "822597e140062585b3452a3d1b839a28"
+          }
+        },
+        {
+          "id": "it.hurts.octostudios:nerb:0.4.2@jar",
+          "name": "Not Enough Recipe Book",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 23654,
+            "url": "https://glape3333.github.io/dino/servers/dinolauncher-1.21.1/fabricmods/required/Not%20Enough%20Recipe%20Book-FABRIC-0.4.2+1.21.jar",
+            "MD5": "3cb43261f6744e2db6e56ba2e39dfa04"
+          }
+        },
+        {
+          "id": "it.hurts.octostudios:octolib:0.5.0.1@jar",
+          "name": "OctoLib",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 423202,
+            "url": "https://glape3333.github.io/dino/servers/dinolauncher-1.21.1/fabricmods/required/OctoLib-FABRIC-0.5.0.1.jar",
+            "MD5": "9d4d83e6ecb2ea446a30cb0f72cf5be0"
+          }
+        },
+        {
+          "id": "net.caffeinemc.mods:sodium:0.6.9+mc1.21.1@jar",
+          "name": "Sodium",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1297415,
+            "url": "https://glape3333.github.io/dino/servers/dinolauncher-1.21.1/fabricmods/required/sodium-fabric-0.6.9+mc1.21.1.jar",
+            "MD5": "65c26c015296f5651b9c623002f7a90b"
+          }
+        },
+        {
+          "id": "de.maxhenkel:voicechat:1.21.1-2.6.4@jar",
+          "name": "Simple Voice Chat",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 5338493,
+            "url": "https://glape3333.github.io/dino/servers/dinolauncher-1.21.1/fabricmods/required/voicechat-fabric-1.21.1-2.6.4.jar",
+            "MD5": "561300bc1471efa15229e5570c8e8946"
+          }
+        },
+        {
+          "id": "cocoainput.json",
+          "name": "cocoainput.json",
+          "type": "File",
+          "artifact": {
+            "size": 60,
+            "url": "https://glape3333.github.io/dino/servers/dinolauncher-1.21.1/files/config/cocoainput.json",
+            "MD5": "c969c5b137fe98086ae0b08254beaa65",
+            "path": "config/cocoainput.json"
+          }
+        },
+        {
+          "id": "entity_model_features.json",
+          "name": "entity_model_features.json",
+          "type": "File",
+          "artifact": {
+            "size": 1080,
+            "url": "https://glape3333.github.io/dino/servers/dinolauncher-1.21.1/files/config/entity_model_features.json",
+            "MD5": "816f1902910c6c5ada74d06c0fc30112",
+            "path": "config/entity_model_features.json"
+          }
+        },
+        {
+          "id": "entity_texture_features.json",
+          "name": "entity_texture_features.json",
+          "type": "File",
+          "artifact": {
+            "size": 1420,
+            "url": "https://glape3333.github.io/dino/servers/dinolauncher-1.21.1/files/config/entity_texture_features.json",
+            "MD5": "70bc0a7c3e75a25a9049facdc3a0a7ea",
+            "path": "config/entity_texture_features.json"
+          }
+        },
+        {
+          "id": "etf_warnings.json",
+          "name": "etf_warnings.json",
+          "type": "File",
+          "artifact": {
+            "size": 28,
+            "url": "https://glape3333.github.io/dino/servers/dinolauncher-1.21.1/files/config/etf_warnings.json",
+            "MD5": "b49b5603d2df29fa132f89ec91974572",
+            "path": "config/etf_warnings.json"
+          }
+        },
+        {
+          "id": "indigo-renderer.properties",
+          "name": "indigo-renderer.properties",
+          "type": "File",
+          "artifact": {
+            "size": 290,
+            "url": "https://glape3333.github.io/dino/servers/dinolauncher-1.21.1/files/config/fabric/indigo-renderer.properties",
+            "MD5": "f5d673355ddc698176382a69d9dba74d",
+            "path": "config/fabric/indigo-renderer.properties"
+          }
+        },
+        {
+          "id": "iris-excluded.json",
+          "name": "iris-excluded.json",
+          "type": "File",
+          "artifact": {
+            "size": 31,
+            "url": "https://glape3333.github.io/dino/servers/dinolauncher-1.21.1/files/config/iris-excluded.json",
+            "MD5": "670592b1394f12ab96d8432f14ac8dd9",
+            "path": "config/iris-excluded.json"
+          }
+        },
+        {
+          "id": "iris.properties",
+          "name": "iris.properties",
+          "type": "File",
+          "artifact": {
+            "size": 312,
+            "url": "https://glape3333.github.io/dino/servers/dinolauncher-1.21.1/files/config/iris.properties",
+            "MD5": "dfb2c65c6d269d77743a48c0182c7444",
+            "path": "config/iris.properties"
+          }
+        },
+        {
+          "id": "emi.yaml",
+          "name": "emi.yaml",
+          "type": "File",
+          "artifact": {
+            "size": 472,
+            "url": "https://glape3333.github.io/dino/servers/dinolauncher-1.21.1/files/config/nerb/compat/emi.yaml",
+            "MD5": "6d9ed38fa7efa021d4793631421fcc90",
+            "path": "config/nerb/compat/emi.yaml"
+          }
+        },
+        {
+          "id": "general.yaml",
+          "name": "general.yaml",
+          "type": "File",
+          "artifact": {
+            "size": 633,
+            "url": "https://glape3333.github.io/dino/servers/dinolauncher-1.21.1/files/config/nerb/general.yaml",
+            "MD5": "2532fbe25742f3155afb262c37c08ce2",
+            "path": "config/nerb/general.yaml"
+          }
+        },
+        {
+          "id": "sodium-fingerprint.json",
+          "name": "sodium-fingerprint.json",
+          "type": "File",
+          "artifact": {
+            "size": 427,
+            "url": "https://glape3333.github.io/dino/servers/dinolauncher-1.21.1/files/config/sodium-fingerprint.json",
+            "MD5": "ee6af16a50eedfa4ea766e33ed22be4b",
+            "path": "config/sodium-fingerprint.json"
+          }
+        },
+        {
+          "id": "sodium-mixins.properties",
+          "name": "sodium-mixins.properties",
+          "type": "File",
+          "artifact": {
+            "size": 258,
+            "url": "https://glape3333.github.io/dino/servers/dinolauncher-1.21.1/files/config/sodium-mixins.properties",
+            "MD5": "a5b6a84e034d60be869ae33f2dba4e2b",
+            "path": "config/sodium-mixins.properties"
+          }
+        },
+        {
+          "id": "sodium-options.json",
+          "name": "sodium-options.json",
+          "type": "File",
+          "artifact": {
+            "size": 664,
+            "url": "https://glape3333.github.io/dino/servers/dinolauncher-1.21.1/files/config/sodium-options.json",
+            "MD5": "f3fb8987bcee474772851fb5ecb73e75",
+            "path": "config/sodium-options.json"
+          }
+        },
+        {
+          "id": "options.txt",
+          "name": "options.txt",
+          "type": "File",
+          "artifact": {
+            "size": 5027,
+            "url": "https://glape3333.github.io/dino/servers/dinolauncher-1.21.1/files/options.txt",
+            "path": "options.txt"
+          }
+        },
+        {
+          "id": "Better_Animations.zip",
+          "name": "Better_Animations.zip",
+          "type": "File",
+          "artifact": {
+            "size": 31975,
+            "url": "https://glape3333.github.io/dino/servers/dinolauncher-1.21.1/files/resourcepacks/Better_Animations.zip",
+            "MD5": "5d7f8d320417f93487dae91fe7cf9b6f",
+            "path": "resourcepacks/Better_Animations.zip"
+          }
+        },
+        {
+          "id": "ComplementaryUnbound_r5.1.1.zip",
+          "name": "ComplementaryUnbound_r5.1.1.zip",
+          "type": "File",
+          "artifact": {
+            "size": 409957,
+            "url": "https://glape3333.github.io/dino/servers/dinolauncher-1.21.1/files/shaderpacks/ComplementaryUnbound_r5.1.1.zip",
+            "MD5": "da7fc4c86b12e65f4f70b3a9aaabae90",
+            "path": "shaderpacks/ComplementaryUnbound_r5.1.1.zip"
+          }
+        },
+        {
+          "id": "ComplementaryUnbound_r5.1.1.zip.txt",
+          "name": "ComplementaryUnbound_r5.1.1.zip.txt",
+          "type": "File",
+          "artifact": {
+            "size": 52,
+            "url": "https://glape3333.github.io/dino/servers/dinolauncher-1.21.1/files/shaderpacks/ComplementaryUnbound_r5.1.1.zip.txt",
+            "MD5": "c7873633148ebe979e36ba97fb97a1cb",
+            "path": "shaderpacks/ComplementaryUnbound_r5.1.1.zip.txt"
+          }
+        }
+      ]
+    }
+  ]
+}

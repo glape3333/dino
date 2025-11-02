@@ -216,6 +216,16 @@
           }
         },
         {
+          "id": "net.teujaem:partyui:1.0-SNAPSHOT@jar",
+          "name": "PartyUi",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1146469,
+            "url": "https://glape3333.github.io/dino/servers/dinolauncher-1.21.1/fabricmods/required/partyui-mod.jar",
+            "MD5": "e2bc05abe924a618bf25666fcba14c88"
+          }
+        },
+        {
           "id": "net.caffeinemc.mods:sodium:0.6.9+mc1.21.1@jar",
           "name": "Sodium",
           "type": "FabricMod",
@@ -332,6 +342,17 @@
             "url": "https://glape3333.github.io/dino/servers/dinolauncher-1.21.1/files/config/nerb/general.yaml",
             "MD5": "2532fbe25742f3155afb262c37c08ce2",
             "path": "config/nerb/general.yaml"
+          }
+        },
+        {
+          "id": "PartyUiConfig.yml",
+          "name": "PartyUiConfig.yml",
+          "type": "File",
+          "artifact": {
+            "size": 45,
+            "url": "https://glape3333.github.io/dino/servers/dinolauncher-1.21.1/files/config/PartyUiConfig.yml",
+            "MD5": "9304ec82c27197e3b8e37ab96f2bee8b",
+            "path": "config/PartyUiConfig.yml"
           }
         },
         {
